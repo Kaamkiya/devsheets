@@ -20,11 +20,11 @@ import (
 <h4>Types</h4>
 
 <pre>
-float32, float64
-uint, uint8, uint16, uint32, uint64
-int, int8, int16, int32, int64
-string
-rune
+uint      int                 bool    string    rune
+uint8     int8
+uint16    int16
+uint32    int32    float32
+uint64    int64    float64
 </pre>
 
 <h4>Assignment</h4>
