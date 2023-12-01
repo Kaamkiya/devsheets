@@ -1,6 +1,6 @@
-# Python
+<h1>Python</h1>
 
-#### Importation
+<h4>Importation</h4>
 
 <pre>
 import module
@@ -9,13 +9,13 @@ from module import * # wildcard import
 from module import property # import specific thing from module
 </pre>
 
-#### Types
+<h4>Types</h4>
 
 <pre>
 int, float, str, chr, tuple, list, dict, set
 </pre>
 
-#### Assignment
+<h4>Assignment</h4>
 
 <pre>
 variable_name = value
@@ -23,7 +23,7 @@ variable_name = value
 variable_name: variable_type = value
 </pre>
 
-#### Basics
+<h4>Basics</h4>
 
 Input/output
 

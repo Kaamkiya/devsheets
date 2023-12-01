@@ -1,6 +1,6 @@
-# Go
+<h1>Go</h1>
 
-#### Every Go program starts with the following line:
+<h4>Every Go program starts with the following line:</h4>
 
 <pre>package &lt;packageName&gt;</pre>
 
@@ -8,7 +8,7 @@ if it's the main file, then
 
 <pre>package main</pre>
 
-#### Import statements
+<h4>Import statements</h4>
 
 <pre>
 import (
@@ -17,7 +17,7 @@ import (
 )
 </pre>
 
-#### Types
+<h4>Types</h4>
 
 <pre>
 float32, float64
@@ -27,7 +27,7 @@ string
 rune
 </pre>
 
-#### Assignment
+<h4>Assignment</h4>
 
 <pre>
 &lt;type&gt; &lt;variable&gt; = &lt;value&gt;
@@ -38,7 +38,7 @@ float64 pi = 3.14159265
 tau := 6.282
 </pre>
 
-#### Basics
+<h4>Basics</h4>
 
 Program starts at the main function
 
