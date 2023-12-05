@@ -38,18 +38,7 @@ float64 pi = 3.14159265
 tau := 6.282
 </pre>
 
-<h4>Basics</h4>
-
-Program starts at the main function
-
-<pre>
-func main() {
-  // ...
-}
-</pre>
-
-Input/Output
-
+<h4>Input/Output</h4>
 <pre>
 fmt.Println("To be printed") // must import "fmt"
 
@@ -57,8 +46,7 @@ var t string
 fmt.Scan(&t)
 </pre>
 
-Math 
-
+<h4>Math</h4> 
 <pre>
 3 * 3       // 9
 4 % 2       // 0
@@ -66,8 +54,7 @@ Math
 (9 + 8) * 2 // 34
 </pre>
 
-If/else:
-
+<h4>If/else:</h4>
 <pre>
 if condition {
   // do something
@@ -78,8 +65,7 @@ if condition {
 }
 </pre>
 
-Loops:
-
+<h4>Loops:</h4>
 <pre>
 // Go has no while loops
 for start; condition; post {
@@ -96,8 +82,7 @@ for condition {
 }
 </pre>
 
-Functions:
-
+<h4>Functions:</h4>
 <pre>
 func functionName(param1 param1type, param2, param2type) returnType {
   // ...
