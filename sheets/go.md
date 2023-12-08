@@ -17,6 +17,14 @@ import (
 )
 </pre>
 
+<h4>Standard i/o</h4>
+<pre>
+fmt.Println("To be printed") // must import "fmt"
+
+var t string
+fmt.Scan(&t)
+</pre>
+
 <h4>Types</h4>
 
 <pre>
@@ -36,14 +44,6 @@ float64 pi = 3.14159265
 
 // type inference
 tau := 6.282
-</pre>
-
-<h4>Input/Output</h4>
-<pre>
-fmt.Println("To be printed") // must import "fmt"
-
-var t string
-fmt.Scan(&t)
 </pre>
 
 <h4>Math</h4> 
