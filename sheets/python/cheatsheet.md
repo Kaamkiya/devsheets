@@ -18,6 +18,12 @@ bool
 chr
 </pre>
 
+int: number
+float: floating-point number
+str: string
+chr: character
+bool: boolean (true/false)
+
 <h4>Assignment</h4>
 Declaring variables
 <pre>

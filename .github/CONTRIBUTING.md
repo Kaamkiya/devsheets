@@ -27,4 +27,26 @@ Please avoid using Markdown, but do put your code in a `.md` file.
 
 ##### Structure
 
-See [sample.md](./sample.md) for a sample. 
+See [sample.md](./sample.md) for a sample cheatsheet. 
+
+Your structure should look something like the following:
+
+```
+your-lang
+    |____/cheatsheet.md
+    |____/functions.md
+    |____/assignment.md
+    |____/loops.md
+    |____/resources.md
+```
+
+For example, the structure of the Go section is like this:
+
+```
+/sheets/go
+    |____/cheatsheet.md
+    |____/functions.md
+    |____/assignment.md
+    |____/loops.md
+    |____/resources.md
+```

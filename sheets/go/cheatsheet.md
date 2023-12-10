@@ -22,23 +22,34 @@ import (
 fmt.Println("To be printed") // must import "fmt"
 
 var t string
-fmt.Scan(&t)
+fmt.Scan(&t) // takes a string input from the user
 </pre>
 
 <h4>Types</h4>
 
 <pre>
-uint      int                 bool    string    rune
+uint      int                                bool    string    rune
 uint8     int8
 uint16    int16
 uint32    int32    float32
-uint64    int64    float64
+uint64    int64    float64    complex64
+                              complex128
 </pre>
+
+uint:   alias of uint32
+uint&lt;size&gt;: &lt;size&gt;-bit unsigned integer
+int:    alias of int32
+int&lt;size&gt;:  &lt;size&gt;-bit unsigned integer
+bool:    boolean variable (true or false)
+string:  string
+rune:    like other languages' char
 
 <h4>Assignment</h4>
 
 <pre>
 &lt;type&gt; &lt;variable&gt; = &lt;value&gt;
+
+var name string // declare but don't initialize
 
 float64 pi = 3.14159265
 
@@ -54,7 +65,7 @@ tau := 6.282
 (9 + 8) * 2 // 34
 </pre>
 
-<h4>If/else:</h4>
+<h4>Control Flow:</h4>
 <pre>
 if condition {
   // do something
